@@ -1,0 +1,26 @@
+* {
+    max-width: 800px;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 20px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    text-decoration: none;
+    text-align: center;
+    background-color: bisque;
+}
+
+a {
+    color: rgb(161, 80, 51);
+    padding: 0 20px;
+}
+
+img {
+    border-style: groove;
+}
+
+ul {
+    list-style: none;
+}
