@@ -26,15 +26,16 @@ a {
 }
 
 .descricao {
+    color: #6B2129;
     padding: 0 0 30px;
 }
 
 .h2 {
-    color: #6B4146;
+    color: #3B1613 ;
 }
 
 .resido {
-    color: #3B1613;
+    color: #6B2129;
     padding: 0 0 10px;
 }
 
