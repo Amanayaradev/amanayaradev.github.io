@@ -1,0 +1,24 @@
+#pic {
+    flex-direction: column;
+}
+#pic img {
+    width: 100%;
+    height: auto;
+}
+#intro {
+    text-align: center;
+}
+.servicesh2 {
+    font-size: 10px;
+}
+.navLinks ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#send {
+    font-weight: bold;
+    margin: 20px;
+}
+.servicesh2 {
+    font-size: 1rem;
+}
