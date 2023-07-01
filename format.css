@@ -14,6 +14,10 @@
 .navLinks ul {
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 0px;
+}
+.navLinks ul li{
+    margin-bottom: 1.5rem;
 }
 #send {
     font-weight: bold;
