@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -15,22 +16,27 @@
     top: 0;
     flex-wrap: wrap;
 }
+
 .navLinks ul {
     display: flex;
     list-style: none;
     margin: 20px 0px;
 }
+
 .navLinks ul li {
-    font-family: 'Roboto Slab', serif;;
+    font-family: 'Roboto Slab', serif;
+    ;
     font-size: 1.1rem;
     font-weight: bold;
 }
+
 .navLinks ul li a {
     text-decoration: none;
     color: white;
     padding: 8px 25px;
     transition: all .5s ease;
 }
+
 .navLinks ul li a:hover {
     background-color: white;
     color: black;
@@ -47,6 +53,7 @@
     justify-content: center;
     align-items: center;
 }
+
 #home::before {
     content: '';
     position: absolute;
@@ -58,6 +65,7 @@
     z-index: -1;
     opacity: .8;
 }
+
 .main {
     color: white;
     display: flex;
@@ -67,12 +75,14 @@
     top: 30%;
     right: 10%;
 }
+
 .meh2 {
     font-family: 'Roboto Slab', serif;
     font-size: 3rem;
     text-align: center;
     margin: 19px 0px;
 }
+
 .btnMe {
     font-family: 'Roboto Slab', serif;
     padding: 10px 35px;
@@ -82,6 +92,7 @@
     outline: none;
     transition: .5 ease;
 }
+
 .btnMe:hover {
     cursor: pointer;
     background-color: white;
@@ -100,54 +111,62 @@
     min-height: 700px;
     background-color: brown;
 }
+
 #pic {
     display: flex;
 }
+
 #pic img {
     width: 50%;
     object-fit: cover;
     margin-right: 22px;
 }
+
 #intro {
     display: flex;
     flex-direction: column;
     text-align: justify;
     padding: 10px;
 }
+
 .introH2 {
     display: block;
     font-size: 2rem;
     width: 100%;
     margin-bottom: 20px;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
 }
+
 .gallery img {
     height: 300px;
     margin: 10px;
 }
+
 img {
     border-radius: 3px;
-  }
+}
+
 p {
-font-size: 18px;
-font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-family: 'Roboto Slab';
 }
 
 /* serviços */
 img.services-item {
     transition: all .2s ease-in-out;
-  }
-  
-  img.services-item:hover {
+}
+
+img.services-item:hover {
     transform: scale(1.1);
     transition: all .2s ease-in-out;
-  }
-  
+}
+
 
 #services {
     padding: 50px;
@@ -155,13 +174,15 @@ img.services-item {
     flex-direction: column;
     background-color: #7E7E7E;
 }
+
 .row {
-    margin: 50px 0 ;
+    margin: 50px 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
 }
+
 .box {
     color: white;
     display: flex;
@@ -178,65 +199,14 @@ img.services-item {
     background-image: linear-gradient(to top, rgb(132, 34, 34) 50%, rgb(24, 26, 27) 50%);
     background-color: initial;
 }
+
 .box:hover {
     border: none;
     box-shadow: rgb(132, 34, 34) 0px 0px 20px;
     background-position: left bottom;
     border-color: rgb(72 70 66);
 }
+
 .servicesh2 {
     font-size: 50px;
-}
-/* contato */
-
-#contact {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    background-color: brown;
-    color: white;
-    padding: 50px;
-}
-.form {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 20px 0px;
-}
-.input {
-    padding: 12px;
-    margin: 15px;
-    width: 60%;
-    border: none;
-    outline: none;
-    border-color: initial;
-    outline-color: initial;
-    border-radius: 4px;
-}
-#msg {
-    width: 60%;
-    padding: 10px;
-    margin: 15px;
-    border: none;
-    outline: none;
-    border-color: initial;
-    border-radius: 4px;
-    outline-color: initial;
-}
-#send {
-    padding: 10px;
-    width: 30%;
-    margin: 40px;
-    border: none;
-    outline: none;
-    border-color: initial;
-    border-radius: 4px;
-    outline-color: initial;
-    font-weight: 600;
-    font-size: 15px;
-}
-#send:hover {
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
 }
